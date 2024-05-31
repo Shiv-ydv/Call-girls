@@ -1,0 +1,85 @@
+.topbg{
+    background-color: black;
+    width: 100%;
+    height: 200px;
+}
+.top_header{
+    font-weight: 700;
+    color: white;
+}
+.bannerbg{
+    background-color: black;
+    width: 100%;
+    height: 400px;
+}
+.sitename h2{
+    font-weight: 900;
+    color: white;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.banner_heading{
+    color: #ffc629;
+    margin: 0px 0 0px 0;
+    padding: 0px 0 15px 0;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.banner_text{
+    color: #fff;
+    margin: 0px 0 0px 0;
+    padding: 0px 0 0px 0;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.banner_button a{
+    text-decoration: none;
+    color:white;
+    border-radius: 50px;
+    text-transform: uppercase;
+    display: block;
+    background: linear-gradient(107.2deg, rgb(150, 15, 15) 10.6%, rgb(247, 0, 0) 91.1%);
+    padding: 10px 20px;
+    text-align: center;
+}
+.banner_button2 a{
+    text-decoration: none;
+    color: #fff;
+    border-radius: 50px;
+    text-transform: uppercase;
+    display: block;
+    background: radial-gradient(circle at -1% 57.5%, rgb(19, 170, 82) 0%, rgb(0, 102, 43) 90%);
+    padding: 10px 20px;
+    text-align: center;
+}
+.modelimg{
+    width: 80%;
+    height: auto;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+H6{
+    background-color:green;
+    width: 100%;
+    color: white;
+    padding: 5px;
+}
+.top_header h1{
+    font-weight: 1000;
+}
+/* media query  */
+@media only screen and (max-width: 479px) {
+    .sitename h2{
+        font-size: 40px;
+    }
+    .bannerbg{
+        height: 650px;
+    }
+}
